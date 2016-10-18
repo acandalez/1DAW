@@ -28,7 +28,7 @@ public class HoraCorrecta {
         System.out.print("Introduzca un segundo del 0 al 59: ");
         iS = sc.nextInt(); 
         
-        if(iH>23 || iM>59 || iS>59){
+        if(iH<=0 && iH>23 || iM>59 || iS>59){
             System.out.println("Formato Incorrecto: "+iH+":"+iM+":"+iS+" recuerde: H 0-23 | M 0-59 | S 0-59");
         }else{
             System.out.println("La Hora introducida es correcta: "+iH+":"+iM+":"+iS);
