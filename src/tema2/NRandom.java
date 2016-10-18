@@ -21,6 +21,7 @@ public class NRandom {
         int numero, nRandom;
         System.out.println("Introduzca un numero cualquiera");
         numero = sc.nextInt();
+        
         nRandom = (int) ((int) 1+Math.floor(numero*Math.random()));
         System.out.println("El numero random resultante es el " + nRandom);
     }

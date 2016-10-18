@@ -28,20 +28,32 @@ public class MayorQue {
         System.out.print("Introduzca el numero C: ");
         iC = sc.nextInt(); 
         
-        if(iA>iB && iA>iC){
-            System.out.println("El numero A "+iA+" es el mayor de los tres");
+        
+       
+        
+        if(iA>=iB && iA>=iC){
+            System.out.println(iA+" es el mayor de los tres");
             
-        }if(iB>iA && iB>iC){
-            System.out.println("El numero B "+iB+" es el mayor de los tres");
-        }if(iC>iA && iC>iB){
-            System.out.println("El numero C "+iC+" es el mayor de los tres");
-        }if(iA==iB || iA==iC || iB==iA || iB==iC || iC==iA || iC==iB){
-            System.out.println("Los numeros introducidos deben de ser distintos");
+        }else{
+           // System.out.println("A no es el mayor");
+        }
+        if(iB>=iA && iB>=iC){
+            System.out.println(+iB+" es el mayor de los tres");
+        }else{
+           // System.out.println("B no es el mayor");
+        }
+        if(iC>=iA && iC>=iB){
+            System.out.println(iC+" es el mayor de los tres");
+        }else{
+           // System.out.println("C no es el mayor");
+        }
+        if(iA==iB || iA==iC || iB==iA || iB==iC || iC==iA || iC==iB){
+           // System.out.println("Los numeros introducidos deben de ser distintos");
         }
         
         else {
-            
-        }
+            System.out.println("Distinto");
+        }  
         
     }
     

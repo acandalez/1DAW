@@ -28,7 +28,7 @@ public class DivisionReales {
         
         double operacion = (double) dividendo/divisor;
         //he casteado para que admitiera decimales el resultado
-        if(divisor==0)
+        if(divisor==0 || dividendo==0)
            System.out.println("No se puede dividir por cero");    
         else{
             System.out.println(dividendo + " / " + divisor + " = " + operacion);   
