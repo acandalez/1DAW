@@ -21,7 +21,7 @@ public class AnioBisiesto {
         // TODO code application logic here
        int iAnio=0; 
        Scanner sc = new Scanner(System.in);
-        System.out.print("Introduzca un año (formato 0000) : ");
+        System.out.print("Introduzca un año  : ");
         iAnio = sc.nextInt();
         
         //Forma con formula
