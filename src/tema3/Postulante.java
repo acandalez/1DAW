@@ -34,7 +34,7 @@ public class Postulante {
         System.out.println("Ingrese el numero de preguntas acertadas");
         npCorrectas=sc.nextInt();
         // TODO Mirar la formula ya que no concuerda
-        iResultado=(nPreguntas * npCorrectas) /100;
+        iResultado=(npCorrectas * nPreguntas) /100;
         if(iResultado >=90){
             System.out.println("NMaximo " +iResultado);
         }else if(iResultado >=75 && iResultado<90){
