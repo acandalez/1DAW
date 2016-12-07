@@ -19,15 +19,15 @@ public class NSuerte {
     public static void main(String[] args) {
         // TODO code application logic here
          Scanner sc = new Scanner(System.in);
-        int dia, mes, año, suerte, suma, cifra1, cifra2, cifra3, cifra4;
+        int dia, mes, anio, suerte, suma, cifra1, cifra2, cifra3, cifra4;
         System.out.println("Introduzca fecha de nacimiento");
         System.out.print("día: ");
         dia = sc.nextInt();
         System.out.print("mes: ");
         mes = sc.nextInt();
         System.out.print("año: ");
-        año = sc.nextInt();
-        suma = dia + mes + año;
+        anio = sc.nextInt();
+        suma = dia + mes + anio;
         cifra1 = suma/1000;      //obtiene la primera cifra
         cifra2 = suma/100%10;  //obtiene la segunda cifra
         cifra3 = suma/10%10;   //obtiene la tercera cifra

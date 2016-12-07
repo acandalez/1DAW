@@ -15,12 +15,12 @@ public class NumeroPrimo {
 
     public static void main(String[] args) {
 
-        int i,n,acumulador=0;
+        int i = 0,n,acumulador=0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero");
         n=sc.nextInt();
         //Creamos un bucle for
-        for(i=1;i<(n+1); i++){
+        while(++i<(n+1)){
             if(n%i==0){
                 acumulador++;
             }

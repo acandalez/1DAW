@@ -5,6 +5,8 @@
  */
 package tema3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author acand
@@ -15,8 +17,23 @@ public class EdadesDoWhile {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        // TODO terminar ejercicio.
+    	 Scanner sc = new Scanner(System.in);
+    	 int  edad, i = 0, suma = 0;
+    	 double promedio;
+    	 
+    	 do{
+    		 System.out.println("ingrese edades");
+        	 edad=sc.nextInt();
+        	 suma=suma+edad;
+        	 i++;
+        	 promedio=suma%edad;
+        	 
+        	 
+        	 
+    	 }while(promedio>=25);
+    	 
+    	 System.out.println(promedio);
     }
     
 }

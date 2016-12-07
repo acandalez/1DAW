@@ -28,13 +28,14 @@ public class Postulante {
         // TODO code application logic here
         int nPreguntas, npCorrectas, iResultado;
         
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el numero de preguntas realizadas");
         nPreguntas=sc.nextInt();
         System.out.println("Ingrese el numero de preguntas acertadas");
         npCorrectas=sc.nextInt();
         // TODO Mirar la formula ya que no concuerda
-        iResultado=(npCorrectas / nPreguntas) *100;
+        int division = npCorrectas%nPreguntas;
+        iResultado=division ;
         if(iResultado >=90){
             System.out.println("NMaximo " +iResultado);
         }else if(iResultado >=75 && iResultado<90){
