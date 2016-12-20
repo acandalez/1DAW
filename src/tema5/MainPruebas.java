@@ -18,8 +18,12 @@ public class MainPruebas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        A5_3 nota = new A5_3();
+      /*  A5_3 nota = new A5_3();
         nota.medianota();
+      */
+        A5_4_Arrays_Alturas alturas = new A5_4_Arrays_Alturas();
+        alturas.cargar();
+        alturas.calcularPromedio(alturas.cargar);
         
     }
     
