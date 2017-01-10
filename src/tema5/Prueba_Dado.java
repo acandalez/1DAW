@@ -5,25 +5,23 @@
  */
 package tema5;
 
-import java.util.Scanner;
-
 /**
  *
  * @author 1daw
  */
-public class MainPruebas {
+public class Prueba_Dado {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-      /*  A5_3 nota = new A5_3();
-        nota.medianota();
-      */
-        A5_4_Arrays_Alturas alturas = new A5_4_Arrays_Alturas();
-        alturas.cargar();
-        alturas.calcularPromedio(alturas.cargar);
+        A5_7_El_dado pd = new A5_7_El_dado();
+        pd.lanzamiento();
+        pd.repeticiones();
+        
+        
+
         
     }
     

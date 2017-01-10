@@ -48,7 +48,8 @@ public class A5_4_Arrays_Alturas {
     
         Scanner sc = new Scanner(System.in);
         int cont = 0;
-        float alturassc
+        float alturassc;
+        float alturasTotales = 0;
         for(int i = 0; i < altura.length; i++){
             System.out.println("Introduce la altura : ");
             alturassc = sc.nextFloat();
@@ -60,6 +61,7 @@ public class A5_4_Arrays_Alturas {
     } 
     public float calcularPromedio(float promedio){
         float contador = 0, acumulador = 0;
+        float alturasTotales = 0;
         for(int i = 0; i < altura.length; i++){
             altura[i]=alturasTotales;
             promedio = alturasTotales / 5;
@@ -67,7 +69,8 @@ public class A5_4_Arrays_Alturas {
          return promedio;
     }
     public float mayoresPromedio(float mayorPromedio){
-        
+        float alturassc = 0;
+        float promedio = 0;
         for (int i = 0; i < altura.length; i++ ){
             if(alturassc>promedio){
                 mayorPromedio++;
@@ -76,6 +79,8 @@ public class A5_4_Arrays_Alturas {
         return mayorPromedio;
     }
     public float menoresPromedio(float menorPromedio){
+        float alturassc = 0;
+        float promedio = 0;
         for (int i = 0; i < altura.length; i++ ){
             if(alturassc<promedio){
                 menorPromedio++;
