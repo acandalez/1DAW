@@ -1,0 +1,12 @@
+uno: try= valor=44
+	finally = 45
+	antes return= 46
+
+dos: catch= 43
+	finally = 44
+	antes return = 45
+tres: try = 1
+	no llega a devolver un valor y se dirige a el catch de Exception e
+
+cuatro: try = 1
+	IOExcepcion no es ejecutado y se lanza Excepcion e del main
